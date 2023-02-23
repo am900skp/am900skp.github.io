@@ -4,32 +4,6 @@
   
     
     <entry>
-      <title>测试博客二</title>
-      <link href="/2023/02/23/%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2%E4%BA%8C/"/>
-      <url>/2023/02/23/%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2%E4%BA%8C/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>测试博客</title>
-      <link href="/2023/02/23/%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2/"/>
-      <url>/2023/02/23/%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>关于搭建Hexo博客</title>
       <link href="/2023/02/23/%E5%85%B3%E4%BA%8E%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/"/>
       <url>/2023/02/23/%E5%85%B3%E4%BA%8E%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/</url>
@@ -48,19 +22,6 @@
       <url>/2023/02/23/%E6%B5%8B%E8%AF%95%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/</url>
       
         <content type="html"><![CDATA[<p><img src="/../images/%E6%B5%8B%E8%AF%95%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/1.png" alt="1"></p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>测试插入图片</title>
-      <link href="/2023/02/23/%E6%B5%8B%E8%AF%95%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%8701/"/>
-      <url>/2023/02/23/%E6%B5%8B%E8%AF%95%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%8701/</url>
-      
-        <content type="html"><![CDATA[<p><img src="/../images/1.png" alt="1"></p><p><img src="/../images/%E6%B5%8B%E8%AF%95%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/1.png" alt="1"></p><p><img src="/2023/02/23/%E6%B5%8B%E8%AF%95%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/1.png" alt="1"></p>]]></content>
       
       
       
