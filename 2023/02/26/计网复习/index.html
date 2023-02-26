@@ -2,9 +2,9 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>C++智能指针 | 欢迎访问我的博客(skp)</title>
-  <meta name="keywords" content=" C++ ">
-  <meta name="description" content="C++智能指针 | 欢迎访问我的博客(skp)">
+  <title>计网复习 | 欢迎访问我的博客(skp)</title>
+  <meta name="keywords" content=" 计网 ">
+  <meta name="description" content="计网复习 | 欢迎访问我的博客(skp)">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="description" content="个人简介孙楷朋准大二计算机相关专业在读热爱编程,乐于合作,善于总结分享,有良好的的编程习惯目标BAT大厂联系方式 QQ: 1287923885 WeChat: code_cpp Email: &amp;#x6b;&amp;#x70;&amp;#115;&amp;#x75;&amp;#110;&amp;#64;&amp;#x66;&amp;#111;&amp;#x78;&amp;#109;&amp;#97;&amp;#x69;&amp;#108;&amp;#46;&amp;#99;&amp;#111;&amp;#x6d;">
 <meta property="og:type" content="website">
@@ -607,9 +607,9 @@
 </aside>
 <div id="post">
     <div class="pjax">
-        <article id="post-C++智能指针" class="article article-type-post" itemscope itemprop="blogPost">
+        <article id="post-计网复习" class="article article-type-post" itemscope itemprop="blogPost">
     
-        <h1 class="article-title">C++智能指针</h1>
+        <h1 class="article-title">计网复习</h1>
     
     <div class="article-meta">
         
@@ -619,7 +619,7 @@
             <i class="iconfont icon-category"></i>
             
             
-            <a  data-rel="cpp">cpp</a>
+            <a  data-rel="计网">计网</a>
             
         </span>
         
@@ -627,19 +627,19 @@
         <span class="tag">
             <i class="iconfont icon-tag"></i>
             
-            <a class="color4">C++</a>
+            <a class="color3">计网</a>
             
         </span>
         
     </div>
     <div class="article-meta">
         
-            发布时间 : <time class="date" title='最后更新: 2023-02-19 16:03:56'>2022-06-13 19:06</time>
+            发布时间 : <time class="date" title='最后更新: 2023-02-26 22:39:50'>2023-02-26 22:14</time>
         
     </div>
     <div class="article-meta">
         
-        <span>字数:1.3k</span>
+        <span>字数:305</span>
         
         
         
@@ -647,7 +647,7 @@
     
     <div class="toc-ref">
     
-        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%8F%82%E8%80%83%E4%B9%A6%E7%B1%8D"><span class="toc-text">参考书籍:</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#C-Primer"><span class="toc-text">C++ Primer</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Essential-C"><span class="toc-text">Essential C++</span></a></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%BC%96%E8%AF%91%E5%99%A8"><span class="toc-text">编译器:</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#gcc-x2F-g"><span class="toc-text">gcc &#x2F; g++</span></a></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#C-%E6%99%BA%E8%83%BD%E6%8C%87%E9%92%88"><span class="toc-text">C++智能指针</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#C-%E5%85%B1%E4%BA%AB%E5%9E%8B%E6%99%BA%E8%83%BD%E6%8C%87%E9%92%88"><span class="toc-text">C++共享型智能指针</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#C-%E5%BC%B1%E5%BC%95%E7%94%A8%E5%9E%8B%E6%99%BA%E8%83%BD%E6%8C%87%E9%92%88"><span class="toc-text">C++弱引用型智能指针</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#C-%E7%8B%AC%E4%BA%AB%E5%9E%8B%E6%99%BA%E8%83%BD%E6%8C%87%E9%92%88"><span class="toc-text">C++独享型智能指针</span></a></li></ol></li></ol>
+        
     
 <style>
     .left-col .switch-btn,
@@ -663,246 +663,13 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <ul>
-<li><h1 id="参考书籍"><a href="#参考书籍" class="headerlink" title="参考书籍:"></a>参考书籍:</h1><ul>
-<li><h4 id="C-Primer"><a href="#C-Primer" class="headerlink" title="C++ Primer"></a><em>C++ Primer</em></h4></li>
-<li><h4 id="Essential-C"><a href="#Essential-C" class="headerlink" title="Essential C++"></a><em>Essential C++</em></h4></li>
-</ul>
-</li>
-<li><h1 id="编译器"><a href="#编译器" class="headerlink" title="编译器:"></a>编译器:</h1><ul>
-<li><h4 id="gcc-x2F-g"><a href="#gcc-x2F-g" class="headerlink" title="gcc &#x2F; g++"></a><em>gcc &#x2F; g++</em></h4></li>
-</ul>
-</li>
-</ul>
-<h1 id="C-智能指针"><a href="#C-智能指针" class="headerlink" title="C++智能指针"></a>C++智能指针</h1><p>智能指针本质是一个类的对象，使用的时候不会创建这个类指针，只会使用这个类的对象</p>
-<p>智能指针原理是通过对象的死亡会自动调用析构函数这个功能去实现</p>
-<ul>
-<li>构造函数: 管理new的对象</li>
-<li>析构函数: 析构new的对象</li>
-</ul>
-<h2 id="C-共享型智能指针"><a href="#C-共享型智能指针" class="headerlink" title="C++共享型智能指针"></a>C++共享型智能指针</h2><ul>
-<li>允许拷贝构造</li>
-<li>允许多个智能指针对象管理同一段内存</li>
-</ul>
-<pre><code class="cpp">// shared_ptr
-#include &lt;iostream&gt;
-#include &lt;memory&gt;
-#include &lt;string&gt;
-using namespace std;
-class MM &#123;
-   public:
-    MM(string name, int age) : name(name), age(age) &#123;&#125;
-    void print() &#123; 
-        cout &lt;&lt; name &lt;&lt; &quot; &quot; &lt;&lt; age &lt;&lt; endl; 
-    &#125;
-    ~MM() &#123;
-        cout &lt;&lt; &quot;析构过程&quot; &lt;&lt; endl; 
-    &#125;
-
-   protected:
-    string name;
-    int age;
-&#125;;
-class Boy &#123;
-   public:
-    Boy() &#123; 
-        cout &lt;&lt; &quot;Boy&quot; &lt;&lt; endl;
-    &#125;
-    ~Boy() &#123;
-        cout &lt;&lt; &quot;~Boy&quot; &lt;&lt; endl;
-    &#125;
-&#125;;
-
-void printData(shared_ptr&lt;MM&gt; mm) &#123;
-    mm-&gt;print();
-&#125;
-auto returnPtr() &#123;
-    shared_ptr&lt;MM&gt; mm(new MM(&quot;小芳&quot;, 18));
-    return mm;
-&#125;
-void FreeFile(FILE*&amp; fp) &#123;
-    cout &lt;&lt; &quot;关闭文件成功&quot; &lt;&lt; endl;
-    fclose(fp);
-&#125;
-
-void test_shared_ptr() &#123;
-    // 1.管理基本数据
-    shared_ptr&lt;int&gt; intData(new int(100));
-    if (!intData) &#123;
-        cout &lt;&lt; &quot;初始化之智能指针失败!&quot; &lt;&lt; endl;
-        return;
-    &#125;
-    cout &lt;&lt; *intData &lt;&lt; endl;
-    //获取管理对象地址
-    // int* x = intData.get();
-    // cout &lt;&lt; *x &lt;&lt; endl;
-    cout &lt;&lt; &quot;size:&quot; &lt;&lt; intData.use_count() &lt;&lt; endl;
-    shared_ptr&lt;int&gt; p2(intData);
-    cout &lt;&lt; &quot;size:&quot; &lt;&lt; intData.use_count() &lt;&lt; endl;
-    // swap
-    // reset
-    // make_shared函数的参数由构造函数决定
-    // 2.管理自定义类型
-    shared_ptr&lt;string&gt; str = make_shared&lt;string&gt;(&quot;ILoveyou&quot;);
-    cout &lt;&lt; *str &lt;&lt; endl;
-    &#123;
-        shared_ptr&lt;MM&gt; mm(new MM(&quot;张三&quot;, 19));
-        mm-&gt;print();
-        mm.reset(new MM(&quot;小芳&quot;, 18));
-        mm-&gt;print();
-        shared_ptr&lt;MM&gt; mm2 = make_shared&lt;MM&gt;(&quot;小芳&quot;, 20);
-        mm2-&gt;print();
-    &#125;
-    // 3.智能指针常用场景
-    shared_ptr&lt;MM&gt; temp(new MM(&quot;亲爱的&quot;, 28));
-    printData(temp);
-    printData(returnPtr());
-    // 4.特殊释放形式的内存，需要自己手动写删除器
-    // C语言文件指针
-    &#123; shared_ptr&lt;FILE&gt; pf(fopen(&quot;1.txt&quot;, &quot;w+&quot;), FreeFile); &#125;
-
-    &#123;
-        shared_ptr&lt;Boy&gt; p(new Boy[10], [](Boy*&amp; p) &#123; delete[] p; &#125;);
-    &#125;
-    &#123;
-        shared_ptr&lt;int&gt; pint(new int(999));
-        int* pp = pint.get();
-        *pp = 666;
-        cout &lt;&lt; *pint &lt;&lt; endl;
-        // delete pp;	//不能直接释放，会导致二次析构问题
-        // cout &lt;&lt; *pint &lt;&lt; endl;
-    &#125;
-&#125;
-int main(int argc, char** argv) &#123;
-    test_shared_ptr();
-
-    return 0;
-&#125;
-</code></pre>
-<h2 id="C-弱引用型智能指针"><a href="#C-弱引用型智能指针" class="headerlink" title="C++弱引用型智能指针"></a>C++弱引用型智能指针</h2><ul>
-<li>weak_ptr 是弱引用指针，不会累计计数</li>
-<li>weak_ptr不能直接管理对象，只能shared_ptr或者weak_ptr构造而来</li>
-<li>目的是为了解决shared_ptr循环引用的时候内存未释放问题</li>
-<li>不可以使用* 或者-&gt;访问对象，只能通过lock函数访问shared_ptr对象，再去访问数据</li>
-</ul>
-<pre><code class="cpp">// weak_ptr
-#include &lt;iostream&gt;
-#include &lt;memory&gt;
-#include &lt;string&gt;
-using namespace std;
-class B;
-class A &#123;
-   public:
-    A() &#123; cout &lt;&lt; &quot;A&quot; &lt;&lt; endl; &#125;
-    ~A() &#123; cout &lt;&lt; &quot;~A&quot; &lt;&lt; endl; &#125;
-    // shared_ptr&lt;B&gt; b;
-    weak_ptr&lt;B&gt; b;
-&#125;;
-class B &#123;
-   public:
-    B() &#123; cout &lt;&lt; &quot;B&quot; &lt;&lt; endl; &#125;
-    ~B() &#123; cout &lt;&lt; &quot;~B&quot; &lt;&lt; endl; &#125;
-    // shared_ptr&lt;A&gt; a;
-    weak_ptr&lt;A&gt; a;
-&#125;;
-
-void test_weak_ptr() &#123;
-    &#123;
-        shared_ptr&lt;A&gt; ao = make_shared&lt;A&gt;();
-        shared_ptr&lt;B&gt; bo = make_shared&lt;B&gt;();
-        cout &lt;&lt; ao.use_count() &lt;&lt; endl;
-        cout &lt;&lt; bo.use_count() &lt;&lt; endl;
-        ao-&gt;b = bo;
-        bo-&gt;a = ao;
-        cout &lt;&lt; ao.use_count() &lt;&lt; endl;
-        cout &lt;&lt; bo.use_count() &lt;&lt; endl;
-    &#125;
-
-    &#123;
-        shared_ptr&lt;int&gt; s(new int(999));
-        cout &lt;&lt; &quot;count:&quot; &lt;&lt; s.use_count() &lt;&lt; endl;
-        weak_ptr&lt;int&gt; w(s);
-        cout &lt;&lt; &quot;count:&quot; &lt;&lt; w.use_count() &lt;&lt; endl;
-        cout &lt;&lt; &quot;count:&quot; &lt;&lt; s.use_count() &lt;&lt; endl;
-        cout &lt;&lt; *w.lock() &lt;&lt; endl;
-    &#125;
-&#125;
-int main(int argc, char** argv) &#123;
-    // test_shared_ptr();
-    test_weak_ptr();
-
-    return 0;
-&#125;
-</code></pre>
-<h2 id="C-独享型智能指针"><a href="#C-独享型智能指针" class="headerlink" title="C++独享型智能指针"></a>C++独享型智能指针</h2><ul>
-<li>禁止拷贝和赋值(通过删除拷贝构造函数和赋值重载)</li>
-<li>可以通过转交所有权的方式让一个指针去管理对象<ul>
-<li>move函数移交所有权限</li>
-<li>内置reset函数结合release函数去移交所有权限</li>
-</ul>
-</li>
-</ul>
-<pre><code class="cpp">// unique_ptr
-#include &lt;iostream&gt;
-#include &lt;memory&gt;
-#include &lt;string&gt;
-using namespace std;
-class MM &#123;
-   public:
-    MM(string name, int age) : name(name), age(age) &#123;&#125;
-    void print() &#123;
-        cout &lt;&lt; name &lt;&lt; &quot; &quot; &lt;&lt; age &lt;&lt; endl;
-    &#125;
-    ~MM() &#123; 
-        cout &lt;&lt; &quot;析构过程&quot; &lt;&lt; endl;
-    &#125;
-
-   protected:
-    string name;
-    int age;
-&#125;;
-class Boy &#123;
-   public:
-    Boy() &#123; 
-        cout &lt;&lt; &quot;Boy&quot; &lt;&lt; endl;
-    &#125;
-    ~Boy() &#123; 
-        cout &lt;&lt; &quot;~Boy&quot; &lt;&lt; endl; 
-    &#125;
-&#125;;
-void test_unique_ptr() &#123;
-    unique_ptr&lt;int&gt; ptr(new int(999));
-    cout &lt;&lt; *ptr &lt;&lt; endl;
-    // unique_ptr&lt;int&gt; ptr2(ptr);
-    //转交所有权
-    unique_ptr&lt;int&gt; ptr2;
-    ptr2 = move(ptr);
-    // cout &lt;&lt; *ptr &lt;&lt; endl;		//没有值了
-    cout &lt;&lt; *ptr2 &lt;&lt; endl;
-    unique_ptr&lt;int&gt; ptr3;
-    ptr3.reset(ptr2.release());
-    cout &lt;&lt; *ptr3 &lt;&lt; endl;
-    auto p = ptr3.get();
-    // delete p;		//导致二次析构问题
-    &#123;
-        unique_ptr&lt;MM&gt; pMM(new MM(&quot;小美&quot;, 19));
-        pMM-&gt;print();
-        // unique_ptr&lt;管理对象类型,删除器函数指针类型&gt;
-        using FUNC = void (*)(Boy*&amp;);
-        unique_ptr&lt;Boy, FUNC&gt; pBoy(new Boy[3],
-                                   [](Boy*&amp; pBoy) &#123; delete[] pBoy; &#125;);
-        //不能用auto
-        // unique_ptr&lt;Boy, auto&gt; pBoy2(new Boy[3], [](Boy*&amp; pBoy) &#123;delete[]
-        // pBoy; &#125;);
-    &#125;
-&#125;
-int main(int argc, char** argv) &#123;
-    // test_shared_ptr();
-    // test_weak_ptr();
-    test_unique_ptr();
-    return 0;
-&#125;
-</code></pre>
+        <p>互联网的两个重要基本特点: 1&gt;连通性(用户可以交换信息) 2&gt; 共享(资源共享:信息共享,软件共享….)</p>
+<p>互联网(Internet):遵循TCP&#x2F;IP标准,利用路由器将各种计算机网络连接起来而形成的,一个覆盖全球的,特定的”互连网”,主义是使用TCP&#x2F;IP,一个专用名词</p>
+<p>互连网(internet):泛指由多个不同的计算机网络互联而成的网络,除TCP&#x2F;IP外,还可以使用其他协议(比如自定义的协议),能够成相互通信,就可以理解为互连网	</p>
+<p>ISP(Internet Service Provider)互连网服务器提供者 作用是可以获取IP地址的使用权,并可通过该ISP接入互连网</p>
+<p>从互联网的工作方式上看,大致分为两块:1&gt;边缘部分,2&gt;核心部分</p>
+<p>1–&gt;由所有连接在互联网上的主机组成,这部分是用户直接使用的,用来进行通信(传送数据,…)资源共享</p>
+<p>2–&gt;由大量网络和连接这些网络的路由器组成,这部分是为边缘部分提供服务的	</p>
 
       
        <hr><span style="font-style: italic;color: gray;"> 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。邮件至kpsun@foxmail.com </span>
@@ -912,12 +679,12 @@ int main(int argc, char** argv) &#123;
 
 
 <div class="article_copyright">
-    <p><span class="copy-title">文章标题:</span>C++智能指针</p>
-    <p><span class="copy-title">字数:</span><span class="post-count">1.3k</span></p>
+    <p><span class="copy-title">文章标题:</span>计网复习</p>
+    <p><span class="copy-title">字数:</span><span class="post-count">305</span></p>
     <p><span class="copy-title">本文作者:</span><a  title="am900skp">am900skp</a></p>
-    <p><span class="copy-title">发布时间:</span>2022-06-13, 19:06:51</p>
-    <p><span class="copy-title">最后更新:</span>2023-02-19, 16:03:56</p>
-    <span class="copy-title">原始链接:</span><a class="post-url" href="/2022/06/13/C++%E6%99%BA%E8%83%BD%E6%8C%87%E9%92%88/" title="C++智能指针">http://am900skp.github.io/2022/06/13/C++%E6%99%BA%E8%83%BD%E6%8C%87%E9%92%88/</a>
+    <p><span class="copy-title">发布时间:</span>2023-02-26, 22:14:26</p>
+    <p><span class="copy-title">最后更新:</span>2023-02-26, 22:39:50</p>
+    <span class="copy-title">原始链接:</span><a class="post-url" href="/2023/02/26/%E8%AE%A1%E7%BD%91%E5%A4%8D%E4%B9%A0/" title="计网复习">http://am900skp.github.io/2023/02/26/%E8%AE%A1%E7%BD%91%E5%A4%8D%E4%B9%A0/</a>
     <p>
         <span class="copy-title">版权声明:</span><i class="fa fa-creative-commons"></i> <a rel="license noopener" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="CC BY-NC-SA 4.0 International" target = "_blank">&#34;署名-非商用-相同方式共享 4.0&#34;</a> 转载请保留原文链接及作者。
     </p>
