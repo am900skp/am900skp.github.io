@@ -2,9 +2,9 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>数据结构-合并,反转,有序链表(list) | 欢迎访问我的博客(skp)</title>
-  <meta name="keywords" content=" 数据结构 ">
-  <meta name="description" content="数据结构-合并,反转,有序链表(list) | 欢迎访问我的博客(skp)">
+  <title>操作系统概念 | 欢迎访问我的博客(skp)</title>
+  <meta name="keywords" content=" 操作系统 ">
+  <meta name="description" content="操作系统概念 | 欢迎访问我的博客(skp)">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta property="og:type" content="website">
 <meta property="og:title" content="category">
@@ -632,9 +632,9 @@
 </aside>
 <div id="post">
     <div class="pjax">
-        <article id="post-数据结构-合并,反转,有序链表(list)" class="article article-type-post" itemscope itemprop="blogPost">
+        <article id="post-操作系统概念" class="article article-type-post" itemscope itemprop="blogPost">
     
-        <h1 class="article-title">数据结构-合并,反转,有序链表(list)</h1>
+        <h1 class="article-title">操作系统概念</h1>
     
     <div class="article-meta">
         
@@ -644,7 +644,7 @@
             <i class="iconfont icon-category"></i>
             
             
-            <a  data-rel="数据结构">数据结构</a>
+            <a  data-rel="操作系统">操作系统</a>
             
         </span>
         
@@ -652,19 +652,19 @@
         <span class="tag">
             <i class="iconfont icon-tag"></i>
             
-            <a class="color5">数据结构</a>
+            <a class="color5">操作系统</a>
             
         </span>
         
     </div>
     <div class="article-meta">
         
-            发布时间 : <time class="date" title='最后更新: 2023-02-09 19:44:46'>2022-06-29 10:40</time>
+            发布时间 : <time class="date" title='最后更新: 2023-03-04 12:58:38'>2023-03-04 12:54</time>
         
     </div>
     <div class="article-meta">
         
-        <span>字数:967</span>
+        <span>字数:91</span>
         
         
         
@@ -672,7 +672,7 @@
     
     <div class="toc-ref">
     
-        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%8F%82%E8%80%83%E4%B9%A6%E7%B1%8D"><span class="toc-text">参考书籍:</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90-%E9%BB%91%E7%9A%AE%E4%B9%A6"><span class="toc-text">数据结构与算法分析(黑皮书)</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BD%9C%E8%80%85-Mark-Allen-Weiss"><span class="toc-text">作者:Mark Allen Weiss</span></a></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%B3%A8%E6%84%8F-%E9%98%85%E8%AF%BB%E6%9C%AC%E7%AF%87%E5%8D%9A%E5%AE%A2%E5%89%8D%E8%AF%B7%E5%85%88%E5%AD%A6%E4%BC%9A%E2%80%9D%E5%9F%BA%E7%A1%80%E5%8D%95%E9%93%BE%E8%A1%A8%E2%80%9D"><span class="toc-text">注意:阅读本篇博客前请先学会”基础单链表”</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%89%BE%E4%B8%A4%E4%B8%AA%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E7%9B%B8%E5%90%8C%E5%85%83%E7%B4%A0%E7%BB%84%E6%88%90%E7%AC%AC%E4%B8%89%E4%B8%AA%E9%93%BE%E8%A1%A8"><span class="toc-text">找两个链表中的相同元素组成第三个链表</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E5%90%88%E5%B9%B6"><span class="toc-text">如何合并:</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%81%8D%E5%8E%86%E4%B8%A4%E4%B8%AA%E9%93%BE%E8%A1%A8-%E6%89%BE%E5%88%B0%E7%9B%B8%E5%90%8C%E5%85%83%E7%B4%A0"><span class="toc-text">遍历两个链表,找到相同元素</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%B0%83%E7%94%A8%E4%B8%80%E7%A7%8D%E6%8F%92%E5%85%A5%E6%96%B9%E5%BC%8F%E5%8D%B3%E5%8F%AF"><span class="toc-text">调用一种插入方式即可</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%8F%92%E5%85%A5%E6%96%B9%E5%BC%8F"><span class="toc-text">插入方式</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8F%96%E4%BA%A4%E9%9B%86-%E5%B0%86%E4%B8%A4%E4%B8%AA%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E7%9B%B8%E5%90%8C%E5%85%83%E7%B4%A0%E5%90%88%E5%B9%B6%E4%B8%BA%E7%AC%AC%E4%B8%89%E4%B8%AA%E9%93%BE%E8%A1%A8"><span class="toc-text">取交集,将两个链表中的相同元素合并为第三个链表</span></a></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8"><span class="toc-text">反转链表</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%B8%80%E7%A7%8D%E6%96%B9%E6%B3%95"><span class="toc-text">第一种方法:</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E4%B8%B4%E6%97%B6%E9%93%BE%E8%A1%A8"><span class="toc-text">创建一个临时链表</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%81%8D%E5%8E%86%E5%BD%93%E5%89%8D%E9%93%BE%E8%A1%A8-%E5%B0%86%E7%BB%93%E7%82%B9%E9%80%86%E5%BA%8F%E6%8F%92%E5%85%A5%E5%88%B0%E4%B8%B4%E6%97%B6%E9%93%BE%E8%A1%A8%E4%B8%AD"><span class="toc-text">遍历当前链表,将结点逆序插入到临时链表中</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%87%8A%E6%94%BE%E5%8E%9F%E6%9C%89%E9%93%BE%E8%A1%A8%E5%86%85%E5%AD%98"><span class="toc-text">释放原有链表内存</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%8C%87%E5%90%91%E6%96%B0%E9%93%BE%E8%A1%A8"><span class="toc-text">指向新链表</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81%E5%A6%82%E4%B8%8B"><span class="toc-text">代码如下:</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AC%AC%E4%BA%8C%E7%A7%8D%E6%96%B9%E6%B3%95-%E8%8A%82%E7%9C%81%E7%A9%BA%E9%97%B4"><span class="toc-text">第二种方法(节省空间)</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%80%9D%E8%B7%AF"><span class="toc-text">思路:</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%B0%86%E6%AF%8F%E4%B8%80%E4%B8%AA%E7%BB%93%E7%82%B9%E7%9A%84p-next%E6%8C%87%E9%92%88%E5%8F%8D%E8%BD%AC"><span class="toc-text">将每一个结点的p_next指针反转</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%AC%AC%E4%B8%80%E4%B8%AA%E7%BB%93%E7%82%B9%E6%8C%87%E5%90%91%E6%9C%80%E5%90%8E%E4%B8%80%E4%B8%AA%E7%BB%93%E7%82%B9"><span class="toc-text">第一个结点指向最后一个结点</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%AE%9E%E7%8E%B0"><span class="toc-text">实现:</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%AC%AC%E4%B8%80%E4%B8%AA%E7%BB%93%E7%82%B9%E7%9A%84%E5%89%8D%E9%A9%B1%E7%BB%93%E7%82%B9%E7%94%A8%E7%A9%BA%E8%A1%A8%E7%A4%BA-p-pre-node-x3D-x3D-NULL"><span class="toc-text">第一个结点的前驱结点用空表示(p_pre_node &#x3D;&#x3D; NULL)</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%AC%AC%E4%B8%80%E4%B8%AA%E7%BB%93%E7%82%B9%E7%9A%84p-next%E6%8C%87%E9%92%88%E6%8C%87%E5%90%91%E5%89%8D%E9%A9%B1%E7%BB%93%E7%82%B9-%E8%80%8C%E5%89%8D%E9%A9%B1%E7%BB%93%E7%82%B9%E6%98%AFNULL-%E5%AF%BC%E8%87%B4%E4%B8%8B%E4%B8%80%E4%B8%AA%E7%BB%93%E7%82%B9%E5%B0%B1%E6%89%BE%E4%B8%8D%E5%88%B0%E4%BA%86"><span class="toc-text">第一个结点的p_next指针指向前驱结点,而前驱结点是NULL,导致下一个结点就找不到了</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%89%80%E4%BB%A5%E5%9C%A8%E6%9B%B4%E6%94%B9%E5%BD%93%E5%89%8D%E7%BB%93%E7%82%B9%E7%9A%84%E6%8C%87%E5%90%91%E4%B9%8B%E5%89%8D%E5%BA%94%E5%BD%93%E5%85%88%E4%BF%9D%E5%AD%98%E4%B8%8B%E4%B8%80%E4%B8%AA%E7%BB%93%E7%82%B9-p-next-node-x3D-p-cur-node-gt-p-next"><span class="toc-text">所以在更改当前结点的指向之前应当先保存下一个结点(p_next_node &#x3D; p_cur_node-&gt;p_next;)</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%90%8E%E9%9D%A2%E7%9A%84%E7%BB%93%E7%82%B9%E4%B9%9F%E8%A6%81%E5%81%9A%E4%BB%A5%E4%B8%8A%E7%9B%B8%E5%90%8C%E7%9A%84%E4%BA%8B%E6%83%85"><span class="toc-text">后面的结点也要做以上相同的事情</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%89%8D%E9%A9%B1%E7%BB%93%E7%82%B9%E5%8F%98%E6%88%90%E5%BD%93%E5%89%8D%E7%BB%93%E7%82%B9"><span class="toc-text">前驱结点变成当前结点</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%BD%93%E5%89%8D%E7%BB%93%E7%82%B9%E5%8F%98%E6%88%90%E4%B8%8B%E4%B8%80%E4%B8%AA%E7%BB%93%E7%82%B9"><span class="toc-text">当前结点变成下一个结点</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%A1%A8%E5%A4%B4%E6%8C%87%E5%90%91%E6%9C%80%E5%90%8E%E4%B8%80%E4%B8%AA%E7%BB%93%E7%82%B9"><span class="toc-text">表头指向最后一个结点</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%AE%9E%E7%8E%B0%E4%BB%A3%E7%A0%81%E5%A6%82%E4%B8%8B"><span class="toc-text">实现代码如下:</span></a></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8"><span class="toc-text">有序链表</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%86%8D%E6%8F%92%E5%85%A5%E7%BB%93%E7%82%B9%E6%97%B6%E8%AE%A9%E9%93%BE%E8%A1%A8%E6%9C%89%E5%BA%8F-%E8%BF%99%E4%B8%AA%E6%AF%94%E8%BE%83%E7%AE%80%E5%8D%95-%E7%9C%8B%E4%B8%80%E7%9C%BC%E5%B0%B1%E5%8F%AF%E4%BB%A5%E4%BA%86"><span class="toc-text">再插入结点时让链表有序,这个比较简单,看一眼就可以了</span></a></li></ol></li></ol></li></ol></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F-Operating-System-OS"><span class="toc-text">操作系统(Operating System , OS):</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%98%AF%E6%8C%87%E6%8E%A7%E5%88%B6%E5%92%8C%E7%AE%A1%E7%90%86%E6%95%B4%E4%B8%AA%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E7%9A%84%E7%A1%AC%E4%BB%B6%E5%92%8C%E8%BD%AF%E4%BB%B6%E8%B5%84%E6%BA%90-%E5%B9%B6%E5%90%88%E7%90%86%E7%BB%84%E7%BB%87%E8%B0%83%E5%BA%A6%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%92%8C%E8%B5%84%E6%BA%90%E7%9A%84%E5%88%86%E9%85%8D-%E4%BB%A5%E6%8F%90%E4%BE%9B%E7%BB%99%E7%94%A8%E6%88%B7%E5%92%8C%E5%85%B6%E4%BB%96%E8%BD%AF%E4%BB%B6%E6%96%B9%E4%BE%BF%E7%9A%84%E6%8E%A5%E5%8F%A3%E5%92%8C%E7%8E%AF%E5%A2%83-%E5%AE%83%E6%98%AF%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E4%B8%AD%E6%9C%80%E5%9F%BA%E6%9C%AC%E7%9A%84%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6-%E7%B3%BB%E7%BB%9F%E8%B5%84%E6%BA%90%E7%9A%84%E7%AE%A1%E7%90%86%E8%80%85"><span class="toc-text">是指控制和管理整个计算机系统的硬件和软件资源,并合理组织调度计算机的工作和资源的分配,以提供给用户和其他软件方便的接口和环境,它是计算机系统中最基本的系统软件.(系统资源的管理者)</span></a></li></ol></li></ol></li></ol>
     
 <style>
     .left-col .switch-btn,
@@ -688,194 +688,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <ul>
-<li><h1 id="参考书籍"><a href="#参考书籍" class="headerlink" title="参考书籍:"></a>参考书籍:</h1><ul>
-<li><h4 id="数据结构与算法分析-黑皮书"><a href="#数据结构与算法分析-黑皮书" class="headerlink" title="数据结构与算法分析(黑皮书)"></a><em>数据结构与算法分析(黑皮书)</em></h4></li>
-<li><h4 id="作者-Mark-Allen-Weiss"><a href="#作者-Mark-Allen-Weiss" class="headerlink" title="作者:Mark Allen Weiss"></a><em>作者:Mark Allen Weiss</em></h4></li>
-</ul>
-</li>
-</ul>
-<h1 id="注意-阅读本篇博客前请先学会”基础单链表”"><a href="#注意-阅读本篇博客前请先学会”基础单链表”" class="headerlink" title="注意:阅读本篇博客前请先学会”基础单链表”"></a>注意:阅读本篇博客前请先学会”基础单链表”</h1><h1 id="找两个链表中的相同元素组成第三个链表"><a href="#找两个链表中的相同元素组成第三个链表" class="headerlink" title="找两个链表中的相同元素组成第三个链表"></a>找两个链表中的相同元素组成第三个链表</h1><h2 id="如何合并"><a href="#如何合并" class="headerlink" title="如何合并:"></a>如何合并:</h2><ul>
-<li><h3 id="遍历两个链表-找到相同元素"><a href="#遍历两个链表-找到相同元素" class="headerlink" title="遍历两个链表,找到相同元素"></a>遍历两个链表,找到相同元素</h3></li>
-<li><h3 id="调用一种插入方式即可"><a href="#调用一种插入方式即可" class="headerlink" title="调用一种插入方式即可"></a>调用一种插入方式即可</h3><ul>
-<li><h4 id="插入方式"><a href="#插入方式" class="headerlink" title="插入方式"></a>插入方式</h4></li>
-</ul>
-</li>
-</ul>
-<pre><code class="c">void InsertNode(struct Node* p_list, int new_data) &#123;
-    struct Node* p_new_node = CreateNewNode(new_data);
-    p_new_node-&gt;p_next = p_list-&gt;p_next;  
-    p_list-&gt;p_next = p_new_node;  
-&#125;
-</code></pre>
-<ul>
-<li><h4 id="取交集-将两个链表中的相同元素合并为第三个链表"><a href="#取交集-将两个链表中的相同元素合并为第三个链表" class="headerlink" title="取交集,将两个链表中的相同元素合并为第三个链表"></a>取交集,将两个链表中的相同元素合并为第三个链表</h4></li>
-</ul>
-<pre><code class="c">void Intersection(struct Node* p_list_one,
-                  struct Node* p_list_two,
-                  struct Node* p_list_three) &#123;
-    for (struct Node* p_first = p_list_one-&gt;p_next; NULL != p_first;
-         p_first = p_first-&gt;p_next) &#123;
-        for (struct Node* p_second = p_list_two-&gt;p_next; NULL != p_second;
-             p_second = p_second-&gt;p_next) &#123;
-            if (p_first-&gt;data == p_second-&gt;data) &#123;
-                InsertNode(p_list_three, p_second-&gt;data);
-            &#125;
-        &#125;
-    &#125;
-&#125;
-</code></pre>
-<h1 id="反转链表"><a href="#反转链表" class="headerlink" title="反转链表"></a>反转链表</h1><ul>
-<li><h2 id="第一种方法"><a href="#第一种方法" class="headerlink" title="第一种方法:"></a>第一种方法:</h2><ul>
-<li><h4 id="创建一个临时链表"><a href="#创建一个临时链表" class="headerlink" title="创建一个临时链表"></a>创建一个临时链表</h4></li>
-<li><h4 id="遍历当前链表-将结点逆序插入到临时链表中"><a href="#遍历当前链表-将结点逆序插入到临时链表中" class="headerlink" title="遍历当前链表,将结点逆序插入到临时链表中"></a>遍历当前链表,将结点逆序插入到临时链表中</h4></li>
-<li><h4 id="释放原有链表内存"><a href="#释放原有链表内存" class="headerlink" title="释放原有链表内存"></a>释放原有链表内存</h4></li>
-<li><h4 id="指向新链表"><a href="#指向新链表" class="headerlink" title="指向新链表"></a>指向新链表</h4></li>
-<li><h4 id="代码如下"><a href="#代码如下" class="headerlink" title="代码如下:"></a>代码如下:</h4></li>
-</ul>
-</li>
-</ul>
-<pre><code class="c">//释放链表
-void FreeList(struct Node** p_list) &#123;
-    if (NULL == p_list) &#123;
-        return;
-    &#125;
-    struct Node* p_next_node = NULL;
-    while (NULL != *p_list) &#123;
-        p_next_node = (*p_list)-&gt;p_next;
-        free(*p_list);
-        *p_list = p_next_node;
-    &#125;
-&#125;
-//反转链表第一种方法
-void ReverseFirstWay(struct Node** p_list) &#123;
-    struct Node* p_tmp_list = CreateList();
-    struct Node* p_move = (*p_list)-&gt;p_next;
-    while (NULL != p_move) &#123;
-        InsertNode(p_tmp_list, p_move-&gt;data);
-        p_move = p_move-&gt;p_next;
-    &#125;
-    //释放原有的内存
-    FreeList(p_list);
-    *p_list = p_tmp_list;  //指向新的链表
-&#125;
-</code></pre>
-<ul>
-<li><h3 id="第二种方法-节省空间"><a href="#第二种方法-节省空间" class="headerlink" title="第二种方法(节省空间)"></a>第二种方法(节省空间)</h3><ul>
-<li><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><ul>
-<li><h4 id="将每一个结点的p-next指针反转"><a href="#将每一个结点的p-next指针反转" class="headerlink" title="将每一个结点的p_next指针反转"></a>将每一个结点的p_next指针反转</h4></li>
-<li><h4 id="第一个结点指向最后一个结点"><a href="#第一个结点指向最后一个结点" class="headerlink" title="第一个结点指向最后一个结点"></a>第一个结点指向最后一个结点</h4></li>
-</ul>
-</li>
-<li><h4 id="实现"><a href="#实现" class="headerlink" title="实现:"></a>实现:</h4><ul>
-<li><h4 id="第一个结点的前驱结点用空表示-p-pre-node-x3D-x3D-NULL"><a href="#第一个结点的前驱结点用空表示-p-pre-node-x3D-x3D-NULL" class="headerlink" title="第一个结点的前驱结点用空表示(p_pre_node &#x3D;&#x3D; NULL)"></a>第一个结点的前驱结点用空表示(p_pre_node &#x3D;&#x3D; NULL)</h4></li>
-<li><h4 id="第一个结点的p-next指针指向前驱结点-而前驱结点是NULL-导致下一个结点就找不到了"><a href="#第一个结点的p-next指针指向前驱结点-而前驱结点是NULL-导致下一个结点就找不到了" class="headerlink" title="第一个结点的p_next指针指向前驱结点,而前驱结点是NULL,导致下一个结点就找不到了"></a>第一个结点的p_next指针指向前驱结点,而前驱结点是NULL,导致下一个结点就找不到了</h4></li>
-<li><h4 id="所以在更改当前结点的指向之前应当先保存下一个结点-p-next-node-x3D-p-cur-node-gt-p-next"><a href="#所以在更改当前结点的指向之前应当先保存下一个结点-p-next-node-x3D-p-cur-node-gt-p-next" class="headerlink" title="所以在更改当前结点的指向之前应当先保存下一个结点(p_next_node &#x3D; p_cur_node-&gt;p_next;)"></a>所以在更改当前结点的指向之前应当先保存下一个结点(p_next_node &#x3D; p_cur_node-&gt;p_next;)</h4></li>
-<li><h4 id="后面的结点也要做以上相同的事情"><a href="#后面的结点也要做以上相同的事情" class="headerlink" title="后面的结点也要做以上相同的事情"></a>后面的结点也要做以上相同的事情</h4></li>
-<li><h4 id="前驱结点变成当前结点"><a href="#前驱结点变成当前结点" class="headerlink" title="前驱结点变成当前结点"></a>前驱结点变成当前结点</h4></li>
-<li><h4 id="当前结点变成下一个结点"><a href="#当前结点变成下一个结点" class="headerlink" title="当前结点变成下一个结点"></a>当前结点变成下一个结点</h4></li>
-<li><h4 id="表头指向最后一个结点"><a href="#表头指向最后一个结点" class="headerlink" title="表头指向最后一个结点"></a>表头指向最后一个结点</h4></li>
-<li><h4 id="实现代码如下"><a href="#实现代码如下" class="headerlink" title="实现代码如下:"></a>实现代码如下:</h4></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<pre><code class="c">void ReverseSecondWay(struct Node** p_list) &#123;
-    struct Node* p_pre_node = NULL;               //前驱结点
-    struct Node* p_cur_node = (*p_list)-&gt;p_next;  //当前结点
-    struct Node* p_next_node = (*p_list)-&gt;p_next;  //当前结点的下一个结点
-    while (NULL != p_cur_node) &#123;
-        p_next_node = p_cur_node-&gt;p_next;  //保存下一个结点
-        p_cur_node-&gt;p_next = p_pre_node;  //当前结点的p_next指针指向前驱结点
-        p_pre_node = p_cur_node;   //前驱结点变成当前结点
-        p_cur_node = p_next_node;  //当前结点变成下一个结点
-    &#125;
-    (*p_list)-&gt;p_next = p_pre_node;  //表头指向最后一个结点
-&#125;
-</code></pre>
-<h1 id="有序链表"><a href="#有序链表" class="headerlink" title="有序链表"></a>有序链表</h1><ul>
-<li><h4 id="再插入结点时让链表有序-这个比较简单-看一眼就可以了"><a href="#再插入结点时让链表有序-这个比较简单-看一眼就可以了" class="headerlink" title="再插入结点时让链表有序,这个比较简单,看一眼就可以了"></a>再插入结点时让链表有序,这个比较简单,看一眼就可以了</h4></li>
-</ul>
-<pre><code class="c">/*
-    @author:   KaiPeng_Sun
-    @Time:     2022年7月11日18:22:13
-    @brief:    有序链表
-    @message:  代码的上一行为所写注释
-*/
-#include &lt;stdio.h&gt;
-#include &lt;stdlib.h&gt;
-
-struct data &#123;
-    int index;  //构建序号
-    int data;   //数据
-&#125;;
-
-struct Node &#123;
-    struct data my_data;
-    struct Node* p_next;
-&#125;;
-
-//创建有头链表
-struct Node* CreateList() &#123;
-    struct Node* p_list = (struct Node*)malloc(sizeof(struct Node));
-    if (NULL == p_list) &#123;
-        return NULL;
-    &#125;
-    //初始化头结点
-    p_list-&gt;p_next = NULL;
-    return p_list;
-&#125;
-
-//创建结点
-struct Node* CreateNewNode(struct data my_data) &#123;
-    struct Node* p_new_node = (struct Node*)malloc(sizeof(struct Node));
-    if (NULL == p_new_node) &#123;
-        return NULL;
-    &#125;
-    //初始化结点数据
-    p_new_node-&gt;my_data = my_data;
-    p_new_node-&gt;p_next = NULL;
-    return p_new_node;
-&#125;
-
-void InsertOrderList(struct Node* p_list, struct data my_data) &#123;
-    struct Node* p_new_node = CreateNewNode(my_data);
-    struct Node* pre_node = p_list;          //前驱结点
-    struct Node* cur_node = p_list-&gt;p_next;  //当前结点
-    //升序
-    while (NULL != cur_node &amp;&amp; cur_node-&gt;my_data.index &lt; my_data.index) &#123;
-        pre_node = cur_node;
-        cur_node = pre_node-&gt;p_next;
-    &#125;
-    if (NULL == cur_node) &#123;
-        pre_node-&gt;p_next = p_new_node;
-    &#125; else &#123;
-        pre_node-&gt;p_next = p_new_node;
-        p_new_node-&gt;p_next = cur_node;
-    &#125;
-&#125;
-
-void PrintList(struct Node* p_list) &#123;
-    struct Node* p_move = p_list-&gt;p_next;
-    while (NULL != p_move) &#123;
-        printf(&quot;序号:%d,数据:%d\n&quot;, p_move-&gt;my_data.index, p_move-&gt;my_data.data);
-        p_move = p_move-&gt;p_next;
-    &#125;
-    putchar(&#39;\n&#39;);
-&#125;
-
-int main(int argc, char* argv[]) &#123;
-    //五对数据,两个两个是一对
-    struct data array[5] = &#123;2, 1, 5, 3, 6, 8, 7, 10, 11, 0&#125;;
-    struct Node* p_list = CreateList();
-    for (int i = 0; i &lt; 5; ++i) &#123;
-        InsertOrderList(p_list, array[i]);
-    &#125;
-    PrintList(p_list);
-    return 0;
-&#125;
-</code></pre>
+        <h1 id="操作系统-Operating-System-OS"><a href="#操作系统-Operating-System-OS" class="headerlink" title="操作系统(Operating System , OS):"></a>操作系统(Operating System , OS):</h1><h3 id="是指控制和管理整个计算机系统的硬件和软件资源-并合理组织调度计算机的工作和资源的分配-以提供给用户和其他软件方便的接口和环境-它是计算机系统中最基本的系统软件-系统资源的管理者"><a href="#是指控制和管理整个计算机系统的硬件和软件资源-并合理组织调度计算机的工作和资源的分配-以提供给用户和其他软件方便的接口和环境-它是计算机系统中最基本的系统软件-系统资源的管理者" class="headerlink" title="是指控制和管理整个计算机系统的硬件和软件资源,并合理组织调度计算机的工作和资源的分配,以提供给用户和其他软件方便的接口和环境,它是计算机系统中最基本的系统软件.(系统资源的管理者)"></a>是指控制和管理整个计算机系统的硬件和软件资源,并合理组织调度计算机的工作和资源的分配,以提供给用户和其他软件方便的接口和环境,它是计算机系统中最基本的系统软件.(系统资源的管理者)</h3><p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAMAAABOo35HAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAC9UExURVlZWdPT07KysmRkZIWFhfT09JmZmWZmZm9vb39/fxkZGUxMTDMzM3p6epCQkKamppubm729venp6cjIyN7e3tbW1s/Pz8LCwnx8fLS0tFZWVoiIiI+Pj6GhoeTk5Glpabu7u93d3evr66CgoJSUlKqqqsnJyeDg4Hd3d8PDw+Xl5bi4uNHR0dvb26Ojo6urq+fn51hYWDg4OCgoKHBwcK2traenp0FBQe7u7vHx8U5OTre3t8zMzHV1df///7GrnpQAAAA/dFJOU///////////////////////////////////////////////////////////////////////////////////AI4mfBcAAAUGSURBVHja7NoJb6M4GMZxY0NCD64kve/pMZ2d3Z297+X7f6zFNmBAMUXa6URl/q9UJSWPUPzrizFWRUlNLgEBWGCBBRZYYEEAFlhggQUWWBCABRZYYIEFFgRggQUWWGCBBQFYYIEFFlhgQQAWWGCBBRZYEIAFFlhggQUWBGCBBRZYYIEFAVhggQUWWGBBABZYYIEFFlgQgAUWWGCBBRYEYIEFFlhggQUBWGCBBRZYYEEAFlhggQUWWBCABRZYYIEFFgRggQUWWGCBBQFYYIEFFlhgQQAWWGCBBRZYEIAFFlhggQUWBGCBBRZYn6cCIcRXgvX/h9qcIVBqDdbEM8RCxGCB9QqXYRwHYDHBgwXWl8eKZKiESHI3Ba1kWs3fKixcaJUl1YyeBm7Ocq+yLItUiVBGnXxenSHJolIKEcwHq6ikbOX1YGVzQCTN8LPmSLreghUl9sN4Uw7yajMrLC0TZ1ImzqY6FEop0+pIaEN5HaoOxVuwEqFyc4I46uSlzOLqgxlh6UaR9l3VYWl9Fdoxb1Q90KJtu41pwwFW/WHhTtW8i7TafLCqRsk6bsGw63L9qurXRmuIlbT9lDQnlXU+nBFW1Q2qnZbDprWa2tjR90LZFqx1/+Td/HpGWLlrLDvIwTcx6dQ1Vrntbig68cDms3JwbA5Y1azs1ger6sNV/bbIw1jU81MvNAGrl58RVn8ozW+btF08iGFoAlYvP3csfVur1gJBEIA1uBmue5dhZDOyO2epbmgCVi8/I6x0MMHH9pjsTfBhNzQBq5uPZoQlB0uH3DZG4EZqQ26fL3sZq5uf09Ih6qw3i/pm6BZO0qZX7rrUS68Xsbr5ZE4rePMk08pk9aUZugfqppvs6AM1Acvlo/StP+6EbW06z8hJqxbYp2BZPQUnFsLsKuhQdaHqn5ewbF7KXIn0jWO5MqOQ7RaNLPtbNMmmhimj0GUmYLl8Gs0Lq4wyPbTu1l2QKqHSouzs3OlDIslW5SQsnY/NXmFplyNvEuuLV/Tau9BzwiraDUSwXmysztYWWNtL1psXeumgIrDGaqXvBfUuvtqUYI3V2t1wk1e2msFluJJm6zDJXv/fIfjPP7DAAgsssCiwwAILLLDAosACCyywwAKLAgsssMACC6zt9fDz/v75tyOB+98PD2+ORgKffjw4OP1uJPDxl+Xy8v1I4MPF3t7VNyOB4/vF4uzdzrG+39f1kz/w66Guv/yBvw90KX/gZKkr8Qf+2dOV+gNHC12/7RxrabD2/a31bLAO/a11YbAO/K21MFhLf2s9Gqw9f2vdGqzFu11jnVusE2/gxmI9eQOnFuvYG7i0WH7uK4t15w2cWazrXWP9a7H8f/bQYvm/6IPF+sF/pVssf19Ii/WH/0K2WH/uGuvEWC39gSdj9Twy+Rqri5EZx1gt/IE7Y/XoD1wbq9vd3w1PlufnD2OBp+ebm/uxwPHF6emnscDR4vLy41jg7vHq6sNY4Pr27OyYdRaLUrDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssMCiwAILLLDAAosCCyywwAILLAossMACCyywKLDAAgsssL6u+k+AAQCR9eHtLKvLfwAAAABJRU5ErkJggg==" data-original="/../images/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E6%A6%82%E5%BF%B5/1.png" alt="1"></p>
 
       
        <hr><span style="font-style: italic;color: gray;"> 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。邮件至kpsun@foxmail.com </span>
@@ -885,12 +698,12 @@ int main(int argc, char* argv[]) &#123;
 
 
 <div class="article_copyright">
-    <p><span class="copy-title">文章标题:</span>数据结构-合并,反转,有序链表(list)</p>
-    <p><span class="copy-title">字数:</span><span class="post-count">967</span></p>
+    <p><span class="copy-title">文章标题:</span>操作系统概念</p>
+    <p><span class="copy-title">字数:</span><span class="post-count">91</span></p>
     <p><span class="copy-title">本文作者:</span><a  title="孙楷朋">孙楷朋</a></p>
-    <p><span class="copy-title">发布时间:</span>2022-06-29, 10:40:49</p>
-    <p><span class="copy-title">最后更新:</span>2023-02-09, 19:44:46</p>
-    <span class="copy-title">原始链接:</span><a class="post-url" href="/2022/06/29/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E5%90%88%E5%B9%B6,%E5%8F%8D%E8%BD%AC,%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8(list)/" title="数据结构-合并,反转,有序链表(list)">http://am900skp.github.io/2022/06/29/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E5%90%88%E5%B9%B6,%E5%8F%8D%E8%BD%AC,%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8(list)/</a>
+    <p><span class="copy-title">发布时间:</span>2023-03-04, 12:54:12</p>
+    <p><span class="copy-title">最后更新:</span>2023-03-04, 12:58:38</p>
+    <span class="copy-title">原始链接:</span><a class="post-url" href="/2023/03/04/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E6%A6%82%E5%BF%B5/" title="操作系统概念">http://am900skp.github.io/2023/03/04/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E6%A6%82%E5%BF%B5/</a>
     <p>
         <span class="copy-title">版权声明:</span><i class="fa fa-creative-commons"></i> <a rel="license noopener" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="CC BY-NC-SA 4.0 International" target = "_blank">&#34;署名-非商用-相同方式共享 4.0&#34;</a> 转载请保留原文链接及作者。
     </p>
